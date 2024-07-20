@@ -3,9 +3,11 @@ import './App.css';
 
 
 function App() {
-return ( <>
-<h1 className='bg-yellow 500 xs'> Hello World</h1>
-</>)
+return ( <div >
+ <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+</div>)
 }
 
 export default App

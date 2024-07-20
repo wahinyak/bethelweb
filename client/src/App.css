@@ -1,12 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  background-color: blue;
-}
 
-h1 {
-  text-align: center;
 
-}
