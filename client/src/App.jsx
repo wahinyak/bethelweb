@@ -1,23 +1,22 @@
-import './App.css';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link, Route, Routes } from 'react-router-dom';
+import Home from './components/home';
 import About from './components/about';
-import NotFound from './components/notfound.jsx';
+import NotFound from './components/notfound';
+import Services from './components/services';
 
-
-function App() {
-return ( 
-<div>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about"><About /></Link></li>
-          <li><Link to="/notfound"><NotFound /></Link></li>
-        </ul>
-      </nav>
-      <hr />
+const App = () => {
+  return (
+    <div>
+    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path='/services' element={<Services />} />
+      </Routes>
     </div>
   );
 };
 
-
-export default App
+export default App;

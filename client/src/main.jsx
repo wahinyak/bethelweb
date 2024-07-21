@@ -1,20 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter as  Route, Routes } from 'react-router-dom';
-import App from '../src/App.jsx';
-import './index.css'
-import About from './components/about.jsx';
-import NotFound from './components/notfound.jsx';
-import Home from './components/home.jsx';
-ReactDOM.render(
+import React from 'react';
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+
+
+
+const root = createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/notfound" element={<NotFound />} />
-      </Routes>
-    
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+  
 );
