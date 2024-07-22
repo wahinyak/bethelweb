@@ -1,3 +1,5 @@
+import churchLogo from '/PCEA_logo.png'
+
 
 const Header = () => {
   return (
@@ -9,7 +11,7 @@ const Header = () => {
             <div className="flex items-center">
               <img
                 className="h-16 w-auto"
-                src="../../PCEA_logo.png"
+                src={churchLogo}
                 alt="PCEA CHURCH LOGO"
               />
               <span className="text-black text-lg font-semibold ml-2">
