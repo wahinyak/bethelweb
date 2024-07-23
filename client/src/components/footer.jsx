@@ -86,7 +86,7 @@ const Footer = () => {
       </div>
       {/* Copyright Statement */}
       <div className="bottom-0 text-center text-xs pt-2">
-        <p>Copyright © 2024 - PCEA Bethel All rights reserved</p>
+        <p>Copyright &copy; {new Date().getFullYear()} - PCEA Bethel &nbsp;&nbsp; All rights reserved</p>
       </div>
     </footer>
 
