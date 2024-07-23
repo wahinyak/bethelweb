@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <nav className="bg-white fixed w-full z-10">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-24">
           <div className="relative flex items-center justify-between h-16">
             {/* Left side - Church Logo and Name */}
             <div className="flex items-center">
