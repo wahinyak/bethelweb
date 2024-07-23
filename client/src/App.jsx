@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
+import Header from './components/header';
 import Home from './components/home';
 import About from './components/about';
 import NotFound from './components/notfound';
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div>
     
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
