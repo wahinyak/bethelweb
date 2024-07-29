@@ -21,7 +21,7 @@ const Footer = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="size-6 w-4 hover:text-blue-700"
+                className="size-6 w-4 text-blue-700"
               >
                 <path
                   strokeLinecap="round"
@@ -41,7 +41,7 @@ const Footer = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="size-6 w-4 hover:text-blue-700"
+                className="size-6 w-4 text-blue-700"
               >
                 <path
                   strokeLinecap="round"
@@ -64,7 +64,7 @@ const Footer = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="size-6 w-4 hover:text-blue-700"
+                className="size-6 w-4 text-blue-700"
               >
                 <path
                   strokeLinecap="round"
