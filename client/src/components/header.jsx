@@ -57,7 +57,7 @@ const Header = () => {
               <div className="flex lg:hidden ml-4">
                 <button
                   type="button"
-                  className="text-gray-400 hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
+                  className="text-gray-400 hover:text-black"
 	          id="menuBtn"
                 >
                   <span className="sr-only">Open main menu</span>
