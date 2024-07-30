@@ -20,7 +20,7 @@ const About = () => {
       ];
     
   return (
-    <div className="bg-gray-700 p-8 ">
+    <div className="bg-gray-700 p-8 flex-1">
       <section 
   className="mb-12 bg-cover bg-center text-white" 
   style={{ 
