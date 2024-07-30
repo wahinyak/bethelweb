@@ -6,10 +6,11 @@ import About from './components/about';
 import Events from './components/events';
 import NotFound from './components/notfound';
 import Services from './components/services';
+import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="appContainer">
     
       <Header />
       <Routes>

@@ -3,7 +3,7 @@ import eventsHeader from '../assets/Events_header.jpg';
 
 const Events = () => {
   return (
-    <>
+    <div className="flex-1">
       <section className="text-white h-80 mb-10" style={{backgroundImage: `url(${eventsHeader})`, backgroundSize: "cover"}}>
         <div className="flex items-center justify-center h-full">
           <h1 className="text-4xl font-bold" style={{textDecoration: "underline overline", textDecorationThickness: 4}}>OUR EVENTS</h1>
@@ -18,7 +18,7 @@ const Events = () => {
         ></iframe>
       </section>
 
-    </>
+    </div>
   );
 }
 

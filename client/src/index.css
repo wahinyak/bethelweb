@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 /* Tailwind configuration occurs here, don't delete the first three lines, but you can add plain css if need be. */
+
+/* Global Styles */
+
+html, body {
+  height: 100%;
+  margin:0;
+}
