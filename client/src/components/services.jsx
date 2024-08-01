@@ -49,7 +49,11 @@ const Services = () => {
       {/* Program Section */}
       <section className="py-12 text-center">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold mb-4">Our Program</h3>
+          <div className="flex items-center my-8">
+            <div className="flex-grow border-t border-gray-400"></div>
+            <span className="mx-4 text-xl font-bold">Our program</span>
+           <div className="flex-grow border-t border-gray-400"></div>
+        </div>
           <table className="table-auto w-full md:w-2/3 mx-auto text-left">
             <tbody>
               <tr className="border-b">
@@ -92,7 +96,11 @@ const Services = () => {
       {/* Past Services Section */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold mb-4 text-center">Past Services</h3>
+        <div className="flex items-center my-8">
+            <div className="flex-grow border-t border-gray-400"></div>
+            <span className="mx-4 text-xl font-bold">Past Services</span>
+            <div className="flex-grow border-t border-gray-400"></div>
+        </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {servicesData.map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
