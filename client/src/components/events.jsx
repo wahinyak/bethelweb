@@ -1,4 +1,4 @@
-import eventsHeader from '../assets/Events_header.jpg';
+import eventsHeader from '../assets/background/Events_header.jpg';
  
 
 const Events = () => {
