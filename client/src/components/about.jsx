@@ -1,5 +1,4 @@
 import React from 'react';
-import Closed from '../assets/closed.jpg';
 const About = () => {
     const groupData = [
         { title: "Youth Office", description: "Youth activities and support.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
