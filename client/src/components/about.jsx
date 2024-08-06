@@ -20,7 +20,7 @@ const About = () => {
       ];
     
   return (
-    <div className="bg- white dark:bg-gray-700 p-8 flex-1">
+    <>
       <section 
   className="mb-12 bg-cover bg-center text-white" 
   style={{ 
@@ -107,7 +107,12 @@ const About = () => {
   </div>
   <p className="text-center mb-8">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
 
-      <div className="container mx-auto p-8">
+      <div className="container mx-auto p-8 
+      
+      
+      
+      
+      ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
@@ -115,9 +120,9 @@ const About = () => {
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
               alt="Shoes" />
           </figure>
-          <div className="card-body">
+          <div className="card-body items-center">
             <h2 className="card-title">
-            Elder Christine Mwangi
+            Elder Christine Mwangi 
               <div className="badge badge-secondary">Chairperson</div>
             </h2>
             
@@ -253,7 +258,7 @@ const About = () => {
       </div>
     </div>
 
-    </div>
+    </>
   );
 };
 
