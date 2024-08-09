@@ -3,7 +3,7 @@ import { client } from "../lib/client";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
 
-export default function Homepage() {
+export default function Bloghome() {
   const [stories, setStories] = useState([]);
   
   useEffect(() => {

@@ -1,12 +1,11 @@
 import {Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import NotFound from './components/NotFound';
+import NotFound from './components/Notfound';
 import Services from './components/Services';
-// import Blog from './blog/pages/Blog';
 import Blogpost from './blog/pages/Blogpost';
-import Homepage from './blog/pages/Bloghome';
-import Header from '../src/components/Header';
+import Bloghome from './blog/pages/Bloghome';
+import Header from '../src/components/header';
 import Footer from '../src/components/Footer';
 
 
@@ -20,7 +19,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/404" element={<NotFound />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/blog' element={<Homepage />} />
+        <Route path='/blog' element={<Bloghome />} />
         <Route path='/blog/:slug' element={<Blogpost />} />    
       </Routes>
       <Footer />

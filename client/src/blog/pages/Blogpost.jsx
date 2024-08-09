@@ -40,7 +40,7 @@ export default function Blogpost() {
   return (
     <>
       {blogpost && (
-        <section className="py-20 px-5 max-w-3xl mx-auto ">
+        <section className="py-20 px-5 max-w-3xl mx-auto">
           {blogpost.mainImage && (
             <img
               src={blogpost.mainImage.asset.url}
@@ -70,9 +70,9 @@ export default function Blogpost() {
 
       <Link
         to={"/blog"}
-        className="max-w-7xl mx-auto px-5 mb-20 flex items-end justify-end"
+        className="max-w-7xl mx-auto px-5 mb-20 flex items-end justify-end text-slate-50"
       >
-        <button className="bg-slate-600 my-5 py-2 px-4 rounded hover:border-slate-900 tracking-wide hover:bg-transparent hover:border-width-1 text-slate hover:text-slate-900 transition-all duration-200 dark:bg-slate-700 dark:text-slate-500">
+        <button className="bg-slate-400 my-5 py-2 px-4 rounded text-slate-100 tracking-wide hover:bg-transparent hover:text-slate-900 transition-all duration-200 dark:bg-slate-700 dark:text-slate-500">
           Read More Blog Posts
         </button>
       </Link>
