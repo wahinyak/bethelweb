@@ -2,9 +2,9 @@ import {Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Homeome';
-import About from './components/about';
+import About from './components/About';
 import NotFound from './components/notfound';
-import Services from './components/services';
+import Services from './components/Services';
 
 const App = () => {
   return (
