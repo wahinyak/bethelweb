@@ -47,10 +47,10 @@ const Header = () => {
                   EVENTS
                 </a>
                 <a
-                  href="/blogs"
+                  href="/bloghome"
                   className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-blue-900 hover:text-white"
                 >
-                  BLOGS
+                  BLOG
                 </a>
               </nav>
               {/* Mobile menu button */}
@@ -123,7 +123,7 @@ const Header = () => {
               EVENTS
             </a>
             <a
-              href="/blogs"
+              href="/blog"
               className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-blue-900 hover:text-white"
             >
               BLOGS
