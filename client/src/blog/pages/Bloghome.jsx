@@ -29,7 +29,7 @@ export default function Bloghome() {
       } | order(publishedAt desc)`
       )
       .then((data) => {
-        setStories(data.slice(0, 6));
+        setStories(data.slice(0, 10));
       })
       .catch(console.error);
   }, []);
@@ -52,8 +52,8 @@ export default function Bloghome() {
               )}
               <section className="border-t-4 dark:border-slate-500 w-10 mx-auto mt-10"></section>
 
-              <div className="absolute bottom-8 left-8 md:w-1/2">
-                <h1 className="text-xl lg:text-5xl mb-6 text-blue-700 uppercase">
+              <div className="absolute bottom-8 left-8 md:w-1/2 mb-10">
+                <h1 className="text-xl lg:text-5xl mb-6 text-blue-900 uppercase">
                   {stories[0].title}
                 </h1>
                 <p className="text-white mx-3">{`${stories[0].body[0].children[0].text.substring(
@@ -61,11 +61,11 @@ export default function Bloghome() {
                   200
                 )}...`}</p>
 
-                <Link to={`/blog/${stories[0].slug.current}`}>
-                  <button className="bg-transparent my-5 py-2 px-4 rounded text-slate-900 tracking-wide hover:bg-slate-700  hover:text-slate-100 transition-all duration-200">
+                {/* <Link to={`/blog/${stories[0].slug.current}`}>
+                  <button className="bg-slate-300 my-5 py-2 px-4 rounded text-slate-900 tracking-wide hover:bg-slate-100  hover:text-blue-900 font-semi-bold transition-all duration-200">
                     Read More ...
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </article>
           </section>
@@ -75,7 +75,7 @@ export default function Bloghome() {
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-5">
         {stories.map((story) => (
           <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
-            <article className="border-slate-700 rounded-lg overflow-hidden hover:bg-slate-300 hover:dark:bg-blue-400 transition-all duration-500  text-slate-950">
+            <article className="border-slate-700 rounded-lg overflow-hidden hover:bg-slate-300 hover:dark:bg-blue-900 dark:hover:text-slate-100  transition-all duration-500 ">
               {story.mainImage && (
                 <img
                   src={story.mainImage.asset.url}
@@ -90,9 +90,9 @@ export default function Bloghome() {
                   By {story.name} &middot;{" "}
                   {format(new Date(story.publishedAt), "dd MMMM yyyy")}
                 </p>
-                <h2 className="text-xl mt-2 mb-1 text-slate-900  hover:text-slate-900 dark:text-slate-300">{story.title}</h2>
+                <h2 className="text-xl mt-2 mb-1">{story.title}</h2>
                 <p className="text-sm  leading-relaxed">
-                  {`${story.body[0].children[0].text.substring(0, 200)}...`}
+                  {`${story.body[0].children[0].text.substring(0, 100)}...`}
                 </p>
               </div>
             </article>
@@ -100,11 +100,11 @@ export default function Bloghome() {
         ))}
       </section>
       <Link
-        to={"/blog"}
+        to={"/archive"}
         className="max-w-7xl mx-auto px-5 mb-20 flex items-end justify-end"
       >
-        <button className="bg-slate-700 my-5 py-2 px-4 rounded text-slate-100 tracking-wide hover:bg-slate-800 transition-all duration-200">
-          See Blog Posts
+        <button className="bg-blue-900 my-5 py-2 px-4 border-blue-700 rounded text-slate-100 tracking-wide hover:bg-transparent hover:text-blue-900 transition-all duration-200 dark:bg-blue-900 dark:text-slate-50 dark:border-2">
+          See All Blogs
         </button>
       </Link>
     </>
