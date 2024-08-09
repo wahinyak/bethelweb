@@ -48,7 +48,7 @@ const Header = () => {
                   EVENTS
                 </a>
                 <a
-                  href="/bloghome"
+                  href="/blog"
                   className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-blue-900 hover:text-white"
                 >
                   BLOG
