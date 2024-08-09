@@ -1,9 +1,9 @@
 import {Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Homeome';
+import Home from './components/Home';
 import About from './components/About';
-import NotFound from './components/notfound';
+import NotFound from './components/Notfound';
 import Services from './components/Services';
 
 const App = () => {

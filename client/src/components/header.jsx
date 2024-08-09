@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import churchLogo from '/PCEA_logo.png'
 
 
@@ -83,14 +84,14 @@ const Header = () => {
         </div>
         {/* Mobile menu */}
         <div className="lg:hidden fixed inset-x-0 top-0 bg-white shadow-lg z-50 bg-opacity-80 h-1/2 hidden" id="mobileMenu">
-	  <div className="flex justify-end p-4">
-	    <button type="button" className="text-gray-400 hover:text-black" id="closeBtn">
-	      <span className="sr-only">Close menu</span>
-              {/* Icon when menu is open */}
-              <svg
+<div className="flex justify-end p-4">
+	<button type="button" className="text-gray-400 hover:text-black" id="closeBtn">
+	<span className="sr-only">Close menu</span>
+      {/* Icon when menu is open */}
+        <svg
                 className="hidden h-6 w-6"
                 fill="none"
-	        viewBox="0 0 24 24"
+	              viewBox="0 0 24 24"
                 stroke="currentColor"
                 aria-hidden="true"
               >
