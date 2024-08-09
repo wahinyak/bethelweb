@@ -6,10 +6,14 @@ import Services from './components/Services';
 import Blogpost from './blog/pages/Blogpost';
 import Bloghome from './blog/pages/Bloghome';
 import Archive from './blog/pages/Archive';
+import Header from './components/header'
 
 
 const App = () => {
   return (
+    <div className="appContainer">
+    
+      <Header />
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,6 +24,7 @@ const App = () => {
         <Route path='/archive' element={<Archive />} />
         <Route path='/blog/:slug' element={<Blogpost />} />    
       </Routes>
+    </div>
     </div>
   );
 };

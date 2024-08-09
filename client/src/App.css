@@ -9,44 +9,4 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  @apply bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-white;
-  
-}
-
-ul {
-  list-style-type: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-a{font-family: "Rubik", sans-serif;}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  @apply text-slate-900 dark:text-slate-700;
-}
-
-p {
-  font-family: "Roboto Condensed", sans-serif;
-  @apply: text-slate-700 dark:text-white text-sm leading-loose lg:text-base lg:leading-relaxed;
-  @apply: dark: hover:text-slate;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
