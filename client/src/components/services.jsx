@@ -36,13 +36,13 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="bg-gray-100 text-gray-900 min-h-screen justify-center mx-auto px-12 flex-1">
+    <div className="bg-gray-100 text-gray-900 min-h-screen justify-center flex-1">
       {/* Services Section */}
-      <section className="relative bg-cover bg-full text-white h-80" style={{ backgroundImage: "url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=600')" }}>
+      <section className="relative bg-cover bg-full text-white h-80" style={{ backgroundImage: "url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb')", backgroundSize: "cover"}}>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
-          <div className="h-1 bg-white w-64 mb-4"></div>
-          <h2 className="text-4xl font-bold mb-4">OUR SERVICES</h2>
-          <div className="h-1 bg-white w-64"></div>
+          <div className="h-1 bg-white w-80 mb-2"></div>
+          <h2 className="text-4xl font-bold mb-2">OUR SERVICES</h2>
+          <div className="h-1 bg-white w-80"></div>
         </div>
       </section>
 
