@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="bg-white fixed w-full z-10 shadow-md bg-opacity-50">
+      <nav className="bg-white fixed w-full z-10 shadow-md bg-opacity-90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-24">
           <div className="flex items-center h-16">
             {/* Left side - Church Logo and Name */}
@@ -93,7 +93,7 @@ const Header = () => {
           </div>
         </div>
         {/* Mobile menu */}
-        <div className={`lg:hidden fixed inset-x-0 top-0 bg-white shadow-lg z-50 bg-opacity-50 h-1/2 ${isOpen ? 'block' : 'hidden'}`} id="mobileMenu">
+        <div className={`lg:hidden fixed inset-x-0 top-0 bg-white shadow-lg z-50 bg-opacity-90 h-1/2 ${isOpen ? 'block' : 'hidden'}`} id="mobileMenu">
           <div className="flex justify-end p-4">
             <button type="button" className="text-black hover:text-gray-600" id="closeBtn" onClick={toggleMobileMenu}>
               <span className="sr-only">Close menu</span>
