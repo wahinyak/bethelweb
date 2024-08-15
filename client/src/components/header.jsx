@@ -64,7 +64,7 @@ const Header = () => {
                 </a>
               </nav>
               {/* Mobile menu button */}
-              <div className="flex lg:hidden ml-4">
+              <div className={`flex lg:hidden ml-4 ${isOpen ? 'hidden' : 'block'}`}>
                 <button
                   type="button"
                   className="text-gray-600 hover:text-black"
