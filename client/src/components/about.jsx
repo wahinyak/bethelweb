@@ -19,7 +19,7 @@ const About = () => {
       ];
     
   return (
-    <>
+    <div className="flex-1">
       <section 
   className="mb-12 bg-cover bg-center text-white" 
   style={{ 
@@ -50,13 +50,13 @@ const About = () => {
       <section className="mb-12 text-center">
         <div className="md:flex md:justify-around">
           <div className="md:w-1/3">
-            <h3 className="card mb-12 text-center  bg-base-100 w-96 shadow-xl">Mission</h3>
+            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">Mission</h3>
             <p className="text-lg">
               A highly motivated, united and self-reliant Parish that is committed to serve God and its members for enhanced spiritual, physical, economic and social transformation.
             </p>
           </div>
           <div className="md:w-1/3">
-            <h3 className="card mb-12 text-center  bg-base-100 w-96 shadow-xl">Vision</h3>
+            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">Vision</h3>
             <p className="text-lg">
               To empower our members holistically, accommodating all and encouraging voluntary devoted services to God and society.
             </p>
@@ -85,7 +85,7 @@ const About = () => {
 <section className="mb-12">
   <h3 className="text-2xl font-bold mb-4 text-center">Our Theme for 2024</h3>
   <p className="text-lg italic mb-4 text-center">"The righteous shall flourish like the palm tree, he shall grow like a cedar in Lebanon." - Psalms 92:12</p>
-  <div className="flex flex-col md:flex-row justify-between items-start">
+  <div className="flex flex-col md:flex-row justify-around items-start">
     <div className="flex flex-col items-start mb-4 md:mb-0">
       <h4 className="text-3xl font-extrabold">THE RIGHTEOUS</h4>
       <h4 className="text-3xl font-extrabold bg-blue-500 text-white px-2">SHALL FLOURISH</h4>
@@ -106,14 +106,9 @@ const About = () => {
   </div>
   <p className="text-center mb-8">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
 
-      <div className="container mx-auto p-8 
-      
-      
-      
-      
-      ">
+      <div className="container mx-auto p-8 flex justify-around">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -128,7 +123,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -142,7 +137,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -156,7 +151,7 @@ const About = () => {
             <p>Ebenezer District</p>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -171,7 +166,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -186,7 +181,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -200,7 +195,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -215,7 +210,7 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -237,11 +232,11 @@ const About = () => {
     <span className="mx-4 text-xl font-bold">Our groups</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 flex justify-around">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {groupData.map((group, index) => (
-          <div key={index} className="card bg-base-100 w-96 shadow-xl">
-            <figure className="px-10 pt-10">
+          <div key={index} className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
+            <figure className="px-5 pt-10">
               <img
                 src={group.imgSrc}
                 alt={group.title}
@@ -257,7 +252,7 @@ const About = () => {
       </div>
     </div>
 
-    </>
+    </div>
   );
 };
 
