@@ -50,13 +50,13 @@ const About = () => {
       <section className="mb-12 text-center">
         <div className="md:flex md:justify-around">
           <div className="md:w-1/3">
-            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">Mission</h3>
+            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl text-blue-900 font-bold">Mission</h3>
             <p className="text-lg">
               A highly motivated, united and self-reliant Parish that is committed to serve God and its members for enhanced spiritual, physical, economic and social transformation.
             </p>
           </div>
           <div className="md:w-1/3">
-            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">Vision</h3>
+            <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl text-blue-900 font-bold">Vision</h3>
             <p className="text-lg">
               To empower our members holistically, accommodating all and encouraging voluntary devoted services to God and society.
             </p>
@@ -65,7 +65,7 @@ const About = () => {
       </section>
 
       <section className="card mb-12 text-center bg-base-100 w-full lg:w-1/2 mx-auto shadow-xl p-8">
-  <h3 className="text-2xl font-bold mb-4">Core Values</h3>
+  <h3 className="text-2xl font-bold mb-4 text-blue-900">Core Values</h3>
   <div className="flex justify-center">
     <ul className="list-none space-y-2 text-left pr-4 border-r">
       <li className="text-lg">Dynamic Leadership</li>
@@ -84,11 +84,11 @@ const About = () => {
 
 <section className="mb-12">
   <h3 className="text-2xl font-bold mb-4 text-center">Our Theme for 2024</h3>
-  <p className="text-lg italic mb-4 text-center">"The righteous shall flourish like the palm tree, he shall grow like a cedar in Lebanon." - Psalms 92:12</p>
+  <p className="text-lg italic mb-4 text-center text-blue-900 font-bold">"The righteous shall flourish like the palm tree, he shall grow like a cedar in Lebanon." - Psalms 92:12</p>
   <div className="flex flex-col md:flex-row justify-around items-start">
     <div className="flex flex-col items-start mb-4 md:mb-0">
       <h4 className="text-3xl font-extrabold">THE RIGHTEOUS</h4>
-      <h4 className="text-3xl font-extrabold bg-blue-500 text-white px-2">SHALL FLOURISH</h4>
+      <h4 className="text-3xl font-extrabold bg-blue-900 text-white px-2">SHALL FLOURISH</h4>
     </div>
     <ul className="list-disc list-inside text-lg space-y-2 ml-0 md:ml-4">
       <li>How do Christians flourish in life</li>
@@ -101,7 +101,7 @@ const About = () => {
 
 <div className="flex items-center my-8">
     <div className="flex-grow border-t border-gray-400"></div>
-    <span className="mx-4 text-xl font-bold">Leadership</span>
+    <span className="mx-4 text-xl font-bold text-blue-900">Leadership</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
   <p className="text-center mb-8">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
@@ -115,10 +115,10 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body items-center">
-            <h2 className="card-title">
-            Elder Christine Mwangi 
-              <div className="badge badge-secondary">Chairperson</div>
+            <h2 className="card-title font-bold">
+            Elder Christine Mwangi
             </h2>
+            <p>Chairperson & Berea District</p>
             
             
           </div>
@@ -130,10 +130,10 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Elder Frederick Muhoro
             </h2>
-            <p>Retired Chairperson</p>
+            <p>Retired Elder</p>
             
           </div>
         </div>
@@ -144,7 +144,7 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Elder Lucy Kinyua
               
             </h2>
@@ -158,7 +158,7 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Elder Patrick Kamengere
               
             </h2>
@@ -173,7 +173,7 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Elder Daniel Gichuki
               
             </h2>
@@ -188,7 +188,7 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Elder Kiongo
             </h2>
             <p>Judea District</p>
@@ -202,7 +202,7 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
+            <h2 className="card-title font-bold">
               Veronica Kinyua 
               
             </h2>
@@ -217,9 +217,8 @@ const About = () => {
               alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              Elder Peter Gashanga
-              <div className="badge badge-secondary">NEW</div>
+            <h2 className="card-title font-bold">
+              Peter Gashanga
             </h2>
             <p>Treasurer</p>
            
@@ -229,7 +228,7 @@ const About = () => {
     </div>
     <div className="flex items-center my-8">
     <div className="flex-grow border-t border-gray-400"></div>
-    <span className="mx-4 text-xl font-bold">Our groups</span>
+    <span className="mx-4 text-xl font-bold text-blue-900">Our groups</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
     <div className="container mx-auto p-8 flex justify-around">
@@ -244,7 +243,7 @@ const About = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">{group.title}</h2>
+              <h2 className="card-title font-bold">{group.title}</h2>
               <p>{group.description}</p>
             </div>
           </div>
