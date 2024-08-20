@@ -106,7 +106,7 @@ const About = () => {
   </div>
   <p className="text-center mb-8">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
 
-      <div className="container mx-auto p-8 flex justify-around">
+      <div className="container mx-auto p-8 flex justify-around text-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
@@ -228,10 +228,10 @@ const About = () => {
     </div>
     <div className="flex items-center my-8">
     <div className="flex-grow border-t border-gray-400"></div>
-    <span className="mx-4 text-xl font-bold text-blue-900">Our groups</span>
+    <span className="mx-4 text-xl font-bold text-blue-900">Our Groups</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
-    <div className="container mx-auto p-8 flex justify-around">
+    <div className="container mx-auto p-8 flex justify-around text-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {groupData.map((group, index) => (
           <div key={index} className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
