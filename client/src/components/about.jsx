@@ -10,9 +10,6 @@ const About = () => {
         { title: "Children's Brigade", description: "Activities and learning for children.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
         { title: "JPRC", description: "Justice, peace, and reconciliation committee.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
         { title: "Development", description: "Community and church development projects.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
-        { title: "Missionary Committee", description: "Supporting missions locally and abroad.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
-        { title: "Prayer Group", description: "Focused prayer and intercession.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
-        { title: "Music Ministry", description: "Worship through music and arts.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
         { title: "Church School", description: "Let all little children come to me.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
         { title: "Media Ministry", description: "Media coverage of the Lord's work.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
         { title: "Choir", description: "Melodic worship.", imgSrc: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" },
@@ -111,7 +108,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=1kawqs0KXTlpFKy9IPRarF3RD6rPq_jcr&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body items-center">
@@ -126,7 +123,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=148MXvbEpOKCgXCL-JA1rISzSpDlWUbcQ&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -140,7 +137,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=1eUnakZ5RLHgVImVbAaZ682AEhmXK_Hcv&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -154,7 +151,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=14U-5x8Z7lfuwPbiAWVeMzv7aVlGfoEtN&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -169,7 +166,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=1JPf0MZLhOxZyVTV_OSqLrZyydXbJaoP2&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">
@@ -184,7 +181,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=1Vj7h6oWRvK8BW9USp9tnjDMZ8nWmwrKi&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">
