@@ -23,7 +23,7 @@ const About = () => {
       <section 
   className="mb-12 bg-cover bg-center text-white" 
   style={{ 
-    backgroundImage: "url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=600')",
+    backgroundImage: "url('https://drive.google.com/thumbnail?id=1PjjaWysqg7WTRnrHDAeeOWxCfDDr9c0t&sz=h600')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
