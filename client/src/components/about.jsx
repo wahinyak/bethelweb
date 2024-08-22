@@ -200,10 +200,10 @@ const About = () => {
             
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-96 shadow-xl ">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://drive.google.com/thumbnail?id=1hZ5KC7fsCCGk9tPvFeJftWqjQsOe6Jgt&sz=w360"
               alt="Shoes" />
           </figure>
           <div className="card-body">

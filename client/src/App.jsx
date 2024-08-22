@@ -1,12 +1,12 @@
 import {Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import NotFound from './components/NotFound';
-import Services from './components/Services';
+import Home from './components/home';
+import About from './components/about';
+import NotFound from './components/notfound';
+import Services from './components/services';
 import Blogpost from './blog/pages/Blogpost';
 import Bloghome from './blog/pages/Bloghome';
 import Archive from './blog/pages/Archive';
-import Header from './components/Header'
+import Header from './components/header'
 
 
 function App() {
