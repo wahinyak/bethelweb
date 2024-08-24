@@ -36,7 +36,7 @@ export default function Archive() {
   }, []);
 
   return (
-    <>
+    <div className="flex-1">
       <h1 className="p-5 text-xl flex items-center justify-center dark:text-blue-900">
         All Blog Posts
       </h1>
@@ -84,6 +84,6 @@ export default function Archive() {
           </button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }

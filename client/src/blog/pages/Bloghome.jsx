@@ -35,7 +35,7 @@ export default function Bloghome() {
   }, []);
 
   return (
-    <>
+    <div className="flex-1">
     <h2 className="text-3xl mt-2 dark:text-slate-200 mx-auto flex items-center justify-center md:text-xl sm:text-xl">Featured</h2>
 
       {!stories ? (<h2>Loading...</h2>):(<>
@@ -107,6 +107,6 @@ export default function Bloghome() {
           See All Blogs
         </button>
       </Link>
-    </>
+    </div>
   );
 }
