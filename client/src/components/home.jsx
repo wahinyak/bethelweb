@@ -25,6 +25,10 @@ const Home = () => {
     setIndex(newIdx);
   };
 
+  const toSlide = (slideIdx) => {
+    setIndex(slideIdx);
+  }
+
   return (
     <div className="flex-1">
       <section className="bg-cover bg-center text-white duration-500 relative mb-10"
@@ -42,7 +46,12 @@ const Home = () => {
 
         <div className="absolute bottom-2 right-0 left-0 flex justify-center gap-4">
           {slides.map((slide, slideIdx) =>
-	    <div className={`text-xs bg-black rounded-full p-0.5 ${curr === slideIdx ? "text-blue-400": "text-white"}`}><FaCircle /></div>)}
+	    <div
+	      key={slideIdx}
+	      onClick={() => toSlide(slideIdx)}
+	      className={`text-xs bg-black rounded-full p-0.5 duration-500 cursor-pointer ${curr === slideIdx ? "text-blue-400": "text-white"}`}>
+	      <FaCircle />
+	    </div>)}
         </div>
       </section>
 
