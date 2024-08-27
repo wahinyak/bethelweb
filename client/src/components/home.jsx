@@ -42,7 +42,7 @@ const Home = () => {
 
         <div className="absolute bottom-2 right-0 left-0 flex justify-center gap-4">
           {slides.map((slide, slideIdx) =>
-	    <div className="text-xs bg-black rounded-full p-0.5"><FaCircle /></div>)}
+	    <div className={`text-xs bg-black rounded-full p-0.5 ${curr === slideIdx ? "text-blue-400": "text-white"}`}><FaCircle /></div>)}
         </div>
       </section>
 
