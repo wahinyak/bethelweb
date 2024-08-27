@@ -39,11 +39,17 @@ const Home = () => {
           height: '100vh'
         }}>
 
-        <div className="absolute inset-0 p-2 flex items-center justify-between">
+	{/* Chevron Left */}
+        <div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
           <button onClick={prev} className="text-white bg-black bg-opacity-80 rounded-full p-1 hover:bg-black"><ChevronLeft size={30} /></button>
+        </div>
+
+	{/* Chevron Right */}
+        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
           <button onClick={next} className="text-white bg-black bg-opacity-80 rounded-full p-1 hover:bg-black"><ChevronRight size={30} /></button>
         </div>
 
+	{/* Slides Indicators */}
         <div className="absolute bottom-2 right-0 left-0 flex justify-center gap-4">
           {slides.map((slide, slideIdx) =>
 	    <div
@@ -53,6 +59,7 @@ const Home = () => {
 	      <FaCircle />
 	    </div>)}
         </div>
+
       </section>
 
       <section className="relative bg-cover bg-center"
