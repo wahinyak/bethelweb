@@ -5,10 +5,10 @@ import { FaCircle } from 'react-icons/fa';
 const Home = () => {
 
   const slides = [
-    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO BETHEL CHURCH, WHERE EVERYBODY MATTERS"},
-    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
-    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
-    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
+    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
   ]
 
   const[curr, setIndex] = useState(0);
@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <div className="flex-1">
-      <section className="bg-cover bg-center text-white duration-500 relative mb-10"
+      <section className="bg-cover bg-center duration-500 relative mb-10"
         style={{ 
           backgroundImage: `url(${slides[curr].url})`,
           backgroundRepeat: 'no-repeat',
@@ -63,7 +63,7 @@ const Home = () => {
 	{/* Slides text */}
         <div className="absolute inset-0 flex items-center justify-center">
           {slides.map((slide, idx) =>
-            <p key={idx} className="text-2xl font-bold">{curr === idx ? slide.text : '' }</p>)}
+            <p key={idx} style={{ color: slide.color }} className="text-2xl font-bold">{curr === idx ? slide.text : '' }</p>)}
         </div>
 
       </section>
