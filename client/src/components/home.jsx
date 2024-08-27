@@ -5,10 +5,10 @@ import { FaCircle } from 'react-icons/fa';
 const Home = () => {
 
   const slides = [
-    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600"},
-    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600"},
-    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600"},
-    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600"},
+    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO BETHEL CHURCH, WHERE EVERYBODY MATTERS"},
+    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
   ]
 
   const[curr, setIndex] = useState(0);
@@ -50,7 +50,7 @@ const Home = () => {
         </div>
 
 	{/* Slides Indicators */}
-        <div className="absolute bottom-2 right-0 left-0 flex justify-center gap-4">
+        <div className="absolute bottom-2 right-0 left-0 flex justify-center gap-4 z-20">
           {slides.map((slide, slideIdx) =>
 	    <div
 	      key={slideIdx}
@@ -58,6 +58,12 @@ const Home = () => {
 	      className={`text-xs bg-black rounded-full p-0.5 duration-500 cursor-pointer ${curr === slideIdx ? "text-blue-400": "text-white"}`}>
 	      <FaCircle />
 	    </div>)}
+        </div>
+
+	{/* Slides text */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          {slides.map((slide, idx) =>
+            <p key={idx} className="text-2xl font-bold">{curr === idx ? slide.text : '' }</p>)}
         </div>
 
       </section>
