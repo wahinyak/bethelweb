@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 import { FaCircle } from 'react-icons/fa';
 
@@ -12,6 +12,7 @@ const Home = () => {
   ]
 
   const[curr, setIndex] = useState(0);
+  const interval = 6000;
 
   const prev = () => {
     const firstIdx = curr === 0;
@@ -28,6 +29,11 @@ const Home = () => {
   const toSlide = (slideIdx) => {
     setIndex(slideIdx);
   }
+
+  useEffect(() => {
+    const slideInterval = setInterval(next, interval);
+    return () => clearInterval(slideInterval);
+  }, [next, interval]);
 
   return (
     <div className="flex-1">
