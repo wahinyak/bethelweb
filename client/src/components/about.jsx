@@ -105,21 +105,7 @@ const About = () => {
 
       <div className="container mx-auto p-8 flex justify-around text-gray-900 dark:text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
-          <figure>
-            <img
-              src="https://drive.google.com/thumbnail?id=1kawqs0KXTlpFKy9IPRarF3RD6rPq_jcr&sz=w360"
-              alt="Shoes" />
-          </figure>
-          <div className="card-body items-center">
-            <h2 className="card-title font-bold">
-            Elder Christine Mwangi
-            </h2>
-            <p>Chairperson & Berea District</p>
-            
-            
-          </div>
-        </div>
+        
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
@@ -225,6 +211,7 @@ const About = () => {
     </div>
     <div className="flex items-center my-8">
     <div className="flex-grow border-t border-gray-400"></div>
+    
     <span className="mx-4 text-xl font-bold text-blue-900">Our Groups</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
