@@ -38,7 +38,7 @@ export default function Blogpost() {
   }, [blogpost.title, slug]);
 
   return (
-    <>
+    <div className="flex-1">
       {blogpost && (
         <section className="py-20 px-5 max-w-3xl mx-auto">
           {blogpost.mainImage && (
@@ -76,6 +76,6 @@ export default function Blogpost() {
           Read More Blog Posts
         </button>
       </Link>
-    </>
+    </div>
   );
 }
