@@ -36,7 +36,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="bg-base-100 text-base-content min-h-screen justify-center flex-1">
+    <div className="bg-base-100 min-h-screen justify-center flex-1">
       {/* Services Section */}
       <section className="relative bg-cover bg-full text-white h-80" style={{ backgroundImage: "url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb')", backgroundSize: "cover" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
@@ -51,10 +51,10 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center my-8">
             <div className="flex-grow border-t border-gray-400"></div>
-            <span className="mx-4 text-xl font-bold">Our program</span>
+            <span className="mx-4 text-xl font-bold text-blue-900">Our program</span>
             <div className="flex-grow border-t border-gray-400"></div>
           </div>
-          <table className="table-auto w-full md:w-2/3 mx-auto text-left">
+          <table className="table-auto w-full md:w-2/3 mx-auto text-left text-gray-900 dark:text-white">
             <tbody>
               <tr className="border-b">
                 <td className="py-2">Praise & Worship</td>
@@ -98,16 +98,16 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center my-8">
             <div className="flex-grow border-t border-gray-400"></div>
-            <span className="mx-4 text-xl font-bold">Past Services</span>
+            <span className="mx-4 text-xl font-bold text-blue-900">Past Services</span>
             <div className="flex-grow border-t border-gray-400"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-900 dark:text-white">
             {servicesData.map((service, index) => (
               <div key={index} className="bg-base-100 rounded-lg shadow-md overflow-hidden">
                 <img src={service.image} alt="Service" className="w-full h-48 object-cover" />
                 <div className="p-4">
                   <h4 className="font-bold text-lg">{service.title}</h4>
-                  <p className="text-sm text-base-content">{service.pastor} - {service.date}</p>
+                  <p className="text-sm text-gray-800 dark:text-white">{service.pastor} - {service.date}</p>
                   <button className="mt-4 bg-primary text-primary-content py-2 px-4 rounded">Watch</button>
                 </div>
               </div>
