@@ -51,42 +51,30 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center my-8">
             <div className="flex-grow border-t border-gray-400"></div>
-            <span className="mx-4 text-xl font-bold text-blue-900">Our program</span>
+            <span className="mx-4 text-xl font-bold text-blue-900">Order of Services</span>
             <div className="flex-grow border-t border-gray-400"></div>
           </div>
           <table className="table-auto w-full md:w-2/3 mx-auto text-left text-gray-900 dark:text-white">
             <tbody>
               <tr className="border-b">
-                <td className="py-2">Praise & Worship</td>
-                <td className="py-2 text-right">9:00 AM</td>
+                <td className="py-2">Church School</td>
+                <td className="py-2 text-right">8:30 AM - 10:30 AM</td>
               </tr>
               <tr className="border-b">
-                <td className="py-2">Service Start</td>
-                <td className="py-2 text-right">9:10 AM</td>
+                <td className="py-2">Youth Service</td>
+                <td className="py-2 text-right">8:30 AM - 10:30 AM</td>
               </tr>
               <tr className="border-b">
-                <td className="py-2">Praise & Worship</td>
-                <td className="py-2 text-right">9:15 AM</td>
+                <td className="py-2">Main Church First Service</td>
+                <td className="py-2 text-right">8:30 AM - 10:30 AM</td>
               </tr>
               <tr className="border-b">
-                <td className="py-2">Tithes & Offering</td>
-                <td className="py-2 text-right">9:45 AM</td>
+                <td className="py-2">Main Church Second Service</td>
+                <td className="py-2 text-right">10:45 AM - 12:45 PM</td>
               </tr>
               <tr className="border-b">
-                <td className="py-2">Presentations</td>
-                <td className="py-2 text-right">9:50 AM</td>
-              </tr>
-              <tr className="border-b">
-                <td className="py-2">Announcements</td>
-                <td className="py-2 text-right">10:00 AM</td>
-              </tr>
-              <tr className="border-b">
-                <td className="py-2">Sermon</td>
-                <td className="py-2 text-right">10:15 AM</td>
-              </tr>
-              <tr>
-                <td className="py-2">Service Closure</td>
-                <td className="py-2 text-right">11:00 AM</td>
+                <td className="py-2">Mid Week Service</td>
+                <td className="py-2 text-right">Wednesday 6 PM - 7 PM</td>
               </tr>
             </tbody>
           </table>
