@@ -13,7 +13,7 @@ const Header = ({ toggleTheme }) => {
 
   return (
     <header>
-      <nav className={`bg-white dark:bg-gray-800 fixed w-full z-10 shadow-md bg-opacity-90`}>
+      <nav className={`bg-white dark:bg-gray-800 fixed w-full z-50 shadow-md bg-opacity-90`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-24">
           <div className="flex items-center h-16">
             {/* Logo and Name */}
