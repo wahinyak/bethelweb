@@ -2,7 +2,7 @@
 const Events = () => {
   return (
     <div className="flex-1">
-      <section className="text-white h-150 mb-10" style={{backgroundImage: "url(https://imgs.search.brave.com/nz1FVmzLVV2vWd-hOs67EKV0EbSPrQrDeR2WwmctJH0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/MzMwMzc3MC9waG90/by9jcmVhdGl2ZS1i/YWNrZ3JvdW5kLWlt/YWdlLWlzLWJsdXJy/ZWQtZXZlbmluZy1j/aXR5LWxpZ2h0cy1h/bmQtbGlnaHQtc25v/d2ZhbGwud2VicD9i/PTEmcz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/LS1JNlFpc1BSN3lH/bWd1ak9JMmNvOFUz/RklLNXRCdjZ4QWpN/dXA2N2doYz0)", backgroundSize: "cover"}}>
+      <section className="text-white h-80 mb-10" style={{backgroundImage: "url(https://imgs.search.brave.com/nz1FVmzLVV2vWd-hOs67EKV0EbSPrQrDeR2WwmctJH0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/MzMwMzc3MC9waG90/by9jcmVhdGl2ZS1i/YWNrZ3JvdW5kLWlt/YWdlLWlzLWJsdXJy/ZWQtZXZlbmluZy1j/aXR5LWxpZ2h0cy1h/bmQtbGlnaHQtc25v/d2ZhbGwud2VicD9i/PTEmcz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/LS1JNlFpc1BSN3lH/bWd1ak9JMmNvOFUz/RklLNXRCdjZ4QWpN/dXA2N2doYz0)", backgroundSize: "cover"}}>
         <div className="flex flex-col items-center justify-center h-full">
 	  <div className="h-1 bg-white w-80 mb-2 "></div>
           <h1 className="text-4xl font-bold mb-2 text-white">OUR EVENTS</h1>
