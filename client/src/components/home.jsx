@@ -6,13 +6,13 @@ const Home = () => {
 
   const slides = [
     {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
-    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
-    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
     {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
   ]
 
   const[curr, setIndex] = useState(0);
-  const interval = 6000;
+  const interval = 5000;
 
   const prev = () => {
     const firstIdx = curr === 0;
@@ -37,12 +37,11 @@ const Home = () => {
 
   return (
     <div className="flex-1">
-      <section className="bg-cover bg-center duration-500 relative mb-10 h-auto"
+      <section className="bg-cover bg-center lg:h-screen md:h-[80vh] sm:h-[70vh] min-h-[60vh] duration-500 relative mb-10"
         style={{ 
           backgroundImage: `url(${slides[curr].url})`,
           backgroundRepeat: 'no-repeat',
           width: '100%',
-          height: '100vh'
         }}>
 
 	{/* Chevron Left */}
@@ -67,7 +66,7 @@ const Home = () => {
         </div>
 
 	{/* Slides text */}
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-end justify-center pb-20">
           {slides.map((slide, idx) =>
             <p key={idx} style={{ color: slide.color }} className="text-2xl font-bold">{curr === idx ? slide.text : '' }</p>)}
         </div>
