@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
-import { FaCircle } from 'react-icons/fa';
+import { RxDotFilled } from 'react-icons/rx';
 
 const Home = () => {
 
@@ -60,8 +60,8 @@ const Home = () => {
 	    <div
 	      key={slideIdx}
 	      onClick={() => toSlide(slideIdx)}
-	      className={`text-xs bg-black rounded-full p-0.5 duration-500 cursor-pointer ${curr === slideIdx ? "text-blue-400": "text-white"}`}>
-	      <FaCircle />
+	      className={`text-3xl duration-500 cursor-pointer ${curr === slideIdx ? "text-blue-400": "text-white"}`}>
+	      <RxDotFilled />
 	    </div>)}
         </div>
 
@@ -85,7 +85,9 @@ const Home = () => {
           <img src="https://drive.google.com/thumbnail?id=1eoqvPtFKW3ltgY5uUpU0kPPTjeyNxM_Q&sz=h400" alt="Parish Minister"/>
 	  <div className="max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto p-2">
 	    <h1 className="text-lg font-bold text-black">Word from our Parish Minister</h1>
+
 	    <p className="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
 	    <h2 className="pt-2 text-2xl font-semibold underline text-black">Rev. Moses</h2>
 	  </div>
         </div>
