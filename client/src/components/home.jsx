@@ -11,6 +11,13 @@ const Home = () => {
     {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
   ]
 
+  const pages = [
+    {title: "ABOUT US", text: "Learn about Bethel Church, our Mission, Vision, Core values, Theme of the current year, our Leadership and Ministries."},
+    {title: "SERVICES", text: "View our Order of Services and explore recordings of the past 5 services to Stay Engaged With Us."},
+    {title: "EVENTS", text: "Stay Up To Date and with our activities through an interactive Google Calendar and explore Upcoming Events."},
+    {title: "BLOGS", text: "Read our Articles or Posts to be inspired and stay informed."},
+  ]
+
   const[curr, setIndex] = useState(0);
   const interval = 5000;
 
@@ -71,6 +78,26 @@ const Home = () => {
             <p key={idx} style={{ color: slide.color }} className="text-2xl font-bold">{curr === idx ? slide.text : '' }</p>)}
         </div>
 
+      </section>
+
+      <section className="container mx-auto p-8 flex justify-around">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+          {pages.map((page) =>
+            <div className="card w-full sm:w-80 md:w-[45vw] lg:w-[45vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
+              <div className="card-body flex items-center justify-center">
+	        <div>
+                  <h2 className="card-title font-bold text-blue-900">
+	            {page.title}
+                  </h2>
+                </div>
+	        <div>
+                  <p className="font-serif italic text-gray-900 dark:text-white">{page.text}</p>
+                </div>
+              </div>
+
+            </div>)}
+        </div>
       </section>
 
       <section className="relative bg-cover bg-center"
