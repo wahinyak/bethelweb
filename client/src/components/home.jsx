@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 import { RxDotFilled } from 'react-icons/rx';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
 
   const slides = [
@@ -12,10 +12,10 @@ const Home = () => {
   ]
 
   const pages = [
-    {title: "ABOUT US", text: "Learn about Bethel Church, our Mission, Vision, Core values, Theme of the current year, our Leadership and Ministries."},
-    {title: "SERVICES", text: "View our Order of Services and explore recordings of the past 5 services to Stay Engaged With Us."},
-    {title: "EVENTS", text: "Stay Up To Date and with our activities through an interactive Google Calendar and explore Upcoming Events."},
-    {title: "BLOGS", text: "Read our Articles or Posts to be inspired and stay informed."},
+    {title: "ABOUT US", text: "Learn about Bethel Church, our Mission, Vision, Core values, Theme of the current year, our Leadership and Ministries.", link: "/about"},
+    {title: "SERVICES", text: "View our Order of Services and explore recordings of the past 5 services to Stay Engaged With Us.", link: "services"},
+    {title: "EVENTS", text: "Stay Up To Date and with our activities through an interactive Google Calendar and explore Upcoming Events.", link: "events"},
+    {title: "BLOGS", text: "Read our Articles or Posts to be inspired and stay informed.", link: "blog"},
   ]
 
   const[curr, setIndex] = useState(0);
@@ -84,7 +84,9 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
 
           {pages.map((page) =>
-            <div className="card w-full sm:w-80 md:w-[45vw] lg:w-[45vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
+            <Link
+	      to={page.link}
+	      className="border-t-8 border-b-8 border-base-100 hover:border-blue-900 card w-full sm:w-80 md:w-[45vw] lg:w-[45vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
               <div className="card-body flex items-center justify-center">
 	        <div>
                   <h2 className="card-title font-bold text-blue-900">
@@ -96,7 +98,7 @@ const Home = () => {
                 </div>
               </div>
 
-            </div>)}
+            </Link>)}
         </div>
       </section>
 
