@@ -42,6 +42,11 @@ const Home = () => {
     return () => clearInterval(slideInterval);
   }, [next, interval]);
 
+  const handleClick = (path) => {
+    window.location.href = path;
+    window.scrollTo(0, 0); // Top of the page
+  };
+
   return (
     <div className="flex-1">
       <section className="bg-cover bg-center lg:h-screen md:h-[80vh] sm:h-[70vh] min-h-[60vh] duration-500 relative mb-10"
@@ -86,6 +91,7 @@ const Home = () => {
           {pages.map((page) =>
             <Link
 	      to={page.link}
+	      onClick={() => handleClick(page.link)}
 	      className="border-t-8 border-b-8 border-base-100 hover:border-blue-900 card w-full sm:w-80 md:w-[45vw] lg:w-[45vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
               <div className="card-body flex items-center justify-center">
 	        <div>
