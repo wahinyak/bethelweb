@@ -9,6 +9,7 @@ const Footer = () => {
           <img className="h-18 w-10" src={churchLogo} alt="PCEA CHURCH LOGO" />
           <span className="text-lg font-semibold ml-2">PCEA BETHEL</span>
         </div>
+       
         {/* Contact information */}
         <div className="flex-1 pt-4 md:flex-none">
           <h2 className="text-lg font-semibold p-2">CONTACT US</h2>
@@ -52,6 +53,7 @@ const Footer = () => {
               <span className="ml-2">+254 710 001203</span>
             </div>
           </a>
+          
           {/* Google maps Location */}
           <a
             href="https://maps.app.goo.gl/b1nELocnRAMZSNnJA?g_st=atm"

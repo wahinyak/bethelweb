@@ -40,7 +40,7 @@ const About = () => {
     <div className="flex flex-col md:flex-row items-center text-center">
       <div className="md:ml-8">
         <p className="text-lg">
-          PCEA Bethel is a member of the PCEA Ruai Parish. We are a Bible-based, evangelistic, Spirit-empowered church founded in 2015 by Elder PlaceHolder Holder. We started with a congregation of 20 people across 2 districts and with the blessing of God, have grown to over 200 people across 6 districts.
+        PCEA Bethel Church was launched on October 4, 2015, starting with around seventy families from two districts under the leadership of Elders Frederick Muhoro and Rose Mukunya, guided by Rev. John Maina Mahinda. Initially meeting in tents, the congregation persevered through challenges like land issues and weather to establish a semi-permanent structure before building a modern sanctuary. The church now consists of five districts and has made significant progress, including acquiring land, constructing a sanctuary, and establishing a youth church. The current leadership under Rev. Moses Kihara remains committed to spiritual growth and community impact.
         </p>
         <p className="text-lg mt-4">
           At Bethel, EVERYONE MATTERS. We pride ourselves on our inclusion of everyone in the day to day running of our church. We are all children of God, so we all have a chance to grow and lead in Bethel and shape it in whichever way the Lord guides us.
