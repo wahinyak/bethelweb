@@ -48,6 +48,7 @@ const Home = () => {
   };
 
   return (
+    
     <div className="flex-1">
       <section className="bg-cover bg-center lg:h-screen md:h-[80vh] sm:h-[70vh] min-h-[60vh] duration-500 relative mb-10"
         style={{ 
@@ -122,8 +123,13 @@ const Home = () => {
 	    <h1 className="text-lg font-bold text-black">Word from our Parish Minister</h1>
 
 	    <p className="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-	    <h2 className="pt-2 text-2xl font-semibold underline text-black">Rev. Moses</h2>
+      
+	    <h2
+  className="pt-2 text-4xl font-semibold underline text-black"
+  style={{ fontFamily: "'Caveat', cursive", transform: "rotate(-10deg)" }}
+>
+  Rev. Moses Kihara
+</h2>
 	  </div>
         </div>
 
