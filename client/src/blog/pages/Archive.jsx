@@ -36,7 +36,7 @@ export default function Archive() {
   }, []);
 
   return (
-    <div className="flex-1">
+    <div className="flex-1 text-gray-900 dark:text-white">
       <h1 className="p-5 text-xl flex items-center justify-center dark:text-blue-900">
         All Blog Posts
       </h1>
@@ -50,7 +50,7 @@ export default function Archive() {
       <section className="  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-5 ">
         {stories.map((story) => (
           <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
-            <article className="hover:bg-slate-200 border-slate-800 rounded-lg overflow-hidden dark:bg-slate-100 dark:hover:bg-blue-00 transition-all duration-500">
+            <article className="hover:bg-slate-200 border-slate-800 rounded-lg overflow-hidden hover:bg-slate-300 dark:hover:bg-blue-900">
               {story.mainImage && (
                 <img
                   src={story.mainImage.asset.url}
@@ -61,11 +61,11 @@ export default function Archive() {
               )}
 
               <div className="p-4">
-                <p className="text-sm">
+                <p className="text-sm text-blue-900 dark:text-slate-400 font-semibold">
                   By {story.name} &middot;{" "}
                   {format(new Date(story.publishedAt), "dd MMMM yyyy")}
                 </p>
-                <h2 className="text-xl mt-2 mb-1 dark:text-slate-200">{story.title}</h2>
+                <h2 className="text-xl mt-2 mb-1 text-blue-900 dark:text-slate-400 font-semibold">{story.title}</h2>
                 <p className="text-sm  leading-relaxed">
                   {`${story.body[0].children[0].text.substring(0, 200)}...`}
                 </p>
@@ -79,7 +79,7 @@ export default function Archive() {
           to={"/"}
           className="max-w-7xl mx-auto px-5 mb-20 flex items-end justify-end"
         >
-          <button className="bg-slate-400 my-5 py-2 px-4 rounded text-slate-100 tracking-wide hover:bg-slate-600 transition-all duration-500 dark:bg-slate-700 ">
+          <button className="bg-blue-900 my-5 py-2 px-4 border-blue-700 rounded text-slate-100 tracking-wide hover:bg-transparent hover:text-blue-900 transition-all duration-200 dark:bg-blue-900 dark:text-slate-50 dark:border-2">
             Back to Home Page
           </button>
         </Link>
