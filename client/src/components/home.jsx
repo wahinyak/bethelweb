@@ -93,7 +93,7 @@ const Home = () => {
             <Link
 	      to={page.link}
 	      onClick={() => handleClick(page.link)}
-	      className="border-t-8 border-b-8 border-base-100 hover:border-blue-900 card w-full sm:w-80 md:w-[45vw] lg:w-[45vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
+	      className="border-t-8 border-b-8 border-base-100 hover:border-blue-900 card w-full sm:w-80 md:w-[38vw] lg:w-[40vw] shadow-2xl lg:h-[70vh] md:h-[70vh] sm:h-[60vh] min-h-[60vh]">
               <div className="card-body flex items-center justify-center">
 	        <div>
                   <h2 className="card-title font-bold text-blue-900">
