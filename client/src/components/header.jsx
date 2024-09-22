@@ -21,6 +21,7 @@ const Header = ({ toggleTheme }) => {
               <img className="h-16 w-auto" src="/PCEA_logo.png" alt="PCEA CHURCH LOGO" />
               <span className="text-black dark:text-white text-lg font-semibold ml-2">
                 PCEA BETHEL
+	        <span style={{ fontFamily: "'Caveat', cursive"}}> RUAI</span>
               </span>
             </div>
 
