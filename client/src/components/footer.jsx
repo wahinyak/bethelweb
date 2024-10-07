@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-around">
         <div className="flex-1 md:flex-none flex items-center">
           <img className="h-18 w-10" src={churchLogo} alt="PCEA CHURCH LOGO" />
-          <span className="text-lg font-semibold ml-2">PCEA BETHEL</span>
+          <span className="text-lg font-semibold ml-2">PCEA BETHEL<span style={{ fontFamily: "'Caveat', cursive"}}> RUAI</span>
+	  </span>
         </div>
        
         {/* Contact information */}
