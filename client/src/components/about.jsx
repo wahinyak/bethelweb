@@ -203,7 +203,7 @@ const About = () => {
         <div className="card bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl">
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src="https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Shoes" />
           </figure>
           <div className="card-body">
