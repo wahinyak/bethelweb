@@ -5,7 +5,7 @@ const About = () => {
     const groupData = [
         { title: "Woman's Guild", description: "Empowering women through fellowship.", imgSrc: "https://imgs.search.brave.com/TVRs3VD-174D5V5TU1qbsLH-nayNJ-Mtcz7JBzh9rO8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wY2Vh/Lm9yLmtlL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9lbGVtZW50b3Iv/dGh1bWJzLzI4MDI0/NDYxMV8xMTY5MzEw/NjQwMjc2ODc5XzY3/OTQxOTk5Mjk3ODY0/Nzk4NjFfbi1xazc2/ZDFydGcyeWxza2dy/aXlhd2Zrcmp1aWwy/azBsNDVzd3ppeDVr/amcuanBn" },
         { title: "P.C.M.F", description: "Men's fellowship and community service.This group of men seeks to nurture and represent God's divine plan and creation", imgSrc: "https://drive.google.com/thumbnail?id=1udr164f6q_IJJ2XkacigeZufeJ62crOA&sz=w400" },
-        { title: "Youth Office", description: "Youth activities and support.", imgSrc: "https://drive.google.com/thumbnail?id=11E2pGayyMRMXbiw9j7XlXmYFvXwbnpbP&sz=w360" },
+        { title: "Youth", description: "Youth activities and support.", imgSrc: "https://drive.google.com/thumbnail?id=11E2pGayyMRMXbiw9j7XlXmYFvXwbnpbP&sz=w360" },
         { title: "Christian Education", description: "Spiritual education for all ages.Lorem Ipsum sedor catrot fvnlr fgejrsf weoptug  fewfwef fspfifs sfpieccs fefdsff ewfgvsmvnlF", imgSrc: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DsUE9pF7kGV4OhcHfG8o5gHaLH%26pid%3DApi&f=1&ipt=1f803806d5c5487d34960c3d6351e4ba00a2d6c17fb7dfc3c4ba7cf70e7ebfaf&ipo=images" },
         { title: "Evangelism", description: "Sharing the gospel locally and globally.", imgSrc: "https://imgs.search.brave.com/oqzHKIpXz6yIFkP846XqgKXqwkbWV2jYFMLZ8BnlTJE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzEzLzcy/LzA5LzEzNzIwOWU4/YjdjZjU4ZTg5YTFh/YWEwM2ExYTkyNGZi/LmpwZw" },
         { title: "Health Board", description: "Promoting health and wellness.", imgSrc: "https://imgs.search.brave.com/vvFvKENhHLPj0IqM8e31qgJI3hxxJnAK6eoc1HnTFHk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/MzY0NjM0L3Bob3Rv/L3N0ZXRob3Njb3Bl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1ra0pXQkZsZUs3/UW8tSWRCNndIUjFk/MFFIOUtRMnlSVDlI/cGxBeEV1aFJBPQ" },
@@ -51,11 +51,11 @@ const About = () => {
 </section>
 
 
-      <section className="mb-12 text-center">
+      <section className="mb-12 text-center text-gray-900 dark:text-white">
         <div className="md:flex md:justify-around">
           <div className="md:w-1/3">
             <h3 className="card mb-12 text-center bg-base-100 w-full sm:w-80 md:w-64 lg:w-95 shadow-xl text-blue-900 font-bold">Mission</h3>
-            <p className="text-lg text-base-900 ">
+            <p className="text-lg">
               A highly motivated, united and self-reliant Parish that is committed to serve God and its members for enhanced spiritual, physical, economic and social transformation.
             </p>
           </div>
@@ -68,25 +68,25 @@ const About = () => {
         </div>
       </section>
 
-      <section className="card mb-12 text-center bg-base-100 w-full lg:w-1/2 mx-auto shadow-xl p-8">
-  <h3 className="text-2xl font-bold mb-4 text-blue-900">Core Values</h3>
-  <div className="flex justify-center">
-    <ul className="list-none space-y-2 text-left pr-4 border-r">
-      <li className="text-lg">Dynamic Leadership</li>
-      <li className="text-lg">Discipleship</li>
-      <li className="text-lg">Teamwork</li>
-      <li className="text-lg">Integrity</li>
-    </ul>
-    <ul className="list-none space-y-2 text-left pl-4">
-      <li className="text-lg">Unity of Purpose</li>
-      <li className="text-lg">Accountability</li>
-      <li className="text-lg">Spiritual Nurturing</li>
-    </ul>
-  </div>
-</section>
+      <section className="card mb-12 text-center bg-base-100 w-full lg:w-1/2 mx-auto shadow-xl p-8 text-gray-900 dark:text-white">
+        <h3 className="text-2xl font-bold mb-4 text-blue-900">Core Values</h3>
+        <div className="flex justify-center">
+          <ul className="list-none space-y-2 text-left pr-4 border-r">
+            <li className="text-lg">Dynamic Leadership</li>
+            <li className="text-lg">Discipleship</li>
+            <li className="text-lg">Teamwork</li>
+            <li className="text-lg">Integrity</li>
+          </ul>
+          <ul className="list-none space-y-2 text-left pl-4">
+            <li className="text-lg">Unity of Purpose</li>
+            <li className="text-lg">Accountability</li>
+            <li className="text-lg">Spiritual Nurturing</li>
+          </ul>
+        </div>
+      </section>
 
 
-<section className="mb-12">
+<section className="mb-12 text-gray-900 dark:text-white">
   <h3 className="text-2xl font-bold mb-4 text-center">Our Theme for 2024</h3>
   <p className="text-lg italic mb-4 text-center text-blue-900 font-bold">"The righteous shall flourish like the palm tree, he shall grow like a cedar in Lebanon." - Psalms 92:12</p>
   <div className="flex flex-col md:flex-row justify-around items-start">
@@ -103,12 +103,12 @@ const About = () => {
   </div>
 </section>
 
-<div className="flex items-center my-8">
+  <div className="flex items-center my-8">
     <div className="flex-grow border-t border-gray-400"></div>
     <span className="mx-4 text-xl font-bold text-blue-900">Leadership</span>
     <div className="flex-grow border-t border-gray-400"></div>
   </div>
-  <p className="text-center mb-8">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
+  <p className="text-center mb-8 text-gray-900 dark:text-white">Our leadership consists of strong and dedicated men and women that were elected and  have led Bethel faithfully.</p>
 
       <div className="container mx-auto p-8 flex justify-around text-gray-900 dark:text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -117,7 +117,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=148MXvbEpOKCgXCL-JA1rISzSpDlWUbcQ&sz=w360"
-              alt="Shoes" />
+              alt="Elder Frederick Muhoro" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -131,7 +131,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=1eUnakZ5RLHgVImVbAaZ682AEhmXK_Hcv&sz=w360"
-              alt="Shoes" />
+              alt="Elder Lucy Kinyua" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -145,7 +145,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=14U-5x8Z7lfuwPbiAWVeMzv7aVlGfoEtN&sz=w360"
-              alt="Shoes" />
+              alt="Elder Patrick Kamengere" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -160,7 +160,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=1JPf0MZLhOxZyVTV_OSqLrZyydXbJaoP2&sz=w360"
-              alt="Shoes" />
+              alt="Elder Daniel Gichuki" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -175,7 +175,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=1Vj7h6oWRvK8BW9USp9tnjDMZ8nWmwrKi&sz=w360"
-              alt="Shoes" />
+              alt="Elder Peter Kiongo" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -189,7 +189,7 @@ const About = () => {
           <figure>
             <img
               src="https://drive.google.com/thumbnail?id=1hZ5KC7fsCCGk9tPvFeJftWqjQsOe6Jgt&sz=w360"
-              alt="Shoes" />
+              alt="Church Secretary" />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
@@ -205,6 +205,8 @@ const About = () => {
             <img
               src="https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Shoes" />
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Church Treasurer" 
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">

@@ -38,7 +38,7 @@ export default function Blogpost() {
   }, [blogpost.title, slug]);
 
   return (
-    <div className="flex-1">
+    <div className="flex-1 text-gray-900 dark:text-white">
       {blogpost && (
         <section className="py-20 px-5 max-w-3xl mx-auto">
           {blogpost.mainImage && (
@@ -48,9 +48,9 @@ export default function Blogpost() {
               className="h-2/3 object-cover rounded-lg shadow "
             ></img>
           )}
-          <h1 className="text-4xl xl:text-6xl dark:text-slate-800 mt-5">{blogpost.title}</h1>
+          <h1 className="text-4xl xl:text-6xl text-blue-900 dark:text-slate-400 mt-5">{blogpost.title}</h1>
 
-          <p className=" text-sm mb-8 dark:text-slate-800 mt-5">
+          <p className=" text-sm mb-8 text-blue-900 dark:text-slate-400 mt-5">
             By {blogpost.name}
             {""}{" "}
             {blogpost.publishedAt && (
