@@ -204,9 +204,9 @@ const About = () => {
           <figure>
             <img
               src="https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Shoes" />
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              
               alt="Church Treasurer" 
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title font-bold">
