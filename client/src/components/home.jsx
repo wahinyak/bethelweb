@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
   const slides = [
-    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
-    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "white"},
-    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
-    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", color: "black"},
+    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
+    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
+    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
   ]
 
   const pages = [
