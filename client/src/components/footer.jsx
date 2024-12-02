@@ -7,13 +7,15 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-around">
         <div className="flex-1 md:flex-none flex items-center">
           <img className="h-18 w-10" src={churchLogo} alt="PCEA CHURCH LOGO" />
-          <span className="text-lg font-semibold ml-2">PCEA BETHEL</span>
+          <span className="text-lg font-semibold ml-2">PCEA BETHEL<span style={{ fontFamily: "'Caveat', cursive"}}> RUAI</span>
+	  </span>
         </div>
+       
         {/* Contact information */}
         <div className="flex-1 pt-4 md:flex-none">
           <h2 className="text-lg font-semibold p-2">CONTACT US</h2>
           {/* Email Contact */}
-          <a href="mailto:example@gmail.com">
+          <a href="mailto:bethelpcea.rcp@gmail.com">
             <div className="flex p-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +31,7 @@ const Footer = () => {
                   d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                 />
               </svg>
-              <span className="ml-2">example@gmail.com</span>
+              <span className="ml-2">bethelpcea.rcp@gmail.com</span>
             </div>
           </a>
           {/* Phone Contact */}
@@ -52,6 +54,7 @@ const Footer = () => {
               <span className="ml-2">+254 710 001203</span>
             </div>
           </a>
+          
           {/* Google maps Location */}
           <a
             href="https://maps.app.goo.gl/b1nELocnRAMZSNnJA?g_st=atm"
