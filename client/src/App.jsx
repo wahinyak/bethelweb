@@ -37,12 +37,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/404" element={<NotFound />} />
         <Route path="/services" element={<Services />} />
         <Route path="/events" element={<Events />} />
         <Route path="/blog" element={<Bloghome />} />
         <Route path="/archive" element={<Archive />} />
         <Route path="/blog/:slug" element={<Blogpost />} />
+
+	{/* Catch-all route to handle undefined paths */}
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
       <Footer />
     </div>
