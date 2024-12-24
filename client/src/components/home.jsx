@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
   const slides = [
-    {url: "https://drive.google.com/thumbnail?id=1h8THgt4GHR3U8LYybpUEvN1eCufD6y-T&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
-    {url: "https://drive.google.com/thumbnail?id=1mg4mMbmodkAEAchfSnaweHmvgTE-iJCl&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
-    {url: "https://drive.google.com/thumbnail?id=1RsyPswASPiCFM-7Vkjv4zLAq2WMOCy5G&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
-    {url: "https://drive.google.com/thumbnail?id=1HOCNMwru8c9XeJekH79qqUFB44OOU8A6&sz=h600", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
+    {url: "https://res.cloudinary.com/dwzwxx7bc/image/upload/v1735030391/church_spcgx6.jpg", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
+    {url: "https://res.cloudinary.com/dwzwxx7bc/image/upload/v1735030389/church2_l2qj3u.jpg", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "white"},
+    {url: "https://res.cloudinary.com/dwzwxx7bc/image/upload/v1735030388/church3_qoytep.jpg", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
+    {url: "https://res.cloudinary.com/dwzwxx7bc/image/upload/v1735030387/multipurpose_hall_ldyn3n.jpg", text: "WELCOME TO PCEA BETHEL CHURCH, WHERE EVERYBODY MATTERS", color: "black"},
   ]
 
   const pages = [
@@ -111,14 +111,14 @@ const Home = () => {
 
       <section className="relative bg-cover bg-center"
         style={{
-	  backgroundImage: `url("https://drive.google.com/thumbnail?id=1PjjaWysqg7WTRnrHDAeeOWxCfDDr9c0t&sz=h600")`,
+	  backgroundImage: `url("https://res.cloudinary.com/dwzwxx7bc/image/upload/v1735030376/Rev_bg_d2fxbv.png")`,
 	  backgroundRepeat: 'no-repeat',
           width: '100%',
           height: '100vh',
 	  }}>
 
         <div className="absolute inset-0 flex flex-col items-center justify-around sm:flex-row">
-          <img src="https://drive.google.com/thumbnail?id=1eoqvPtFKW3ltgY5uUpU0kPPTjeyNxM_Q&sz=h400" alt="Parish Minister"/>
+          <img src="https://res.cloudinary.com/dwzwxx7bc/image/upload/h_400/rev_hix8ih.png" alt="Parish Minister"/>
 	  <div className="max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto p-2">
 	    <h1 className="text-lg font-bold text-black">Word from our Parish Minister</h1>
 
