@@ -87,18 +87,18 @@ const About = () => {
 
 
 <section className="mb-12 text-gray-900 dark:text-white">
-  <h3 className="text-2xl font-bold mb-4 text-center">Our Theme for 2024</h3>
-  <p className="text-lg italic mb-4 text-center text-blue-900 font-bold">"The righteous shall flourish like the palm tree, he shall grow like a cedar in Lebanon." - Psalms 92:12</p>
+  <h3 className="text-2xl font-bold mb-4 text-center">Our Theme for 2025</h3>
+  <p className="text-lg italic mb-4 text-center text-blue-900 font-bold">{/* "All nations will call you blessed, for you will be a land of delight, says the Lord of hosts." - */} Malachi 3:12a</p>
   <div className="flex flex-col md:flex-row justify-around items-start">
     <div className="flex flex-col items-start mb-4 md:mb-0">
-      <h4 className="text-3xl font-extrabold">THE RIGHTEOUS</h4>
-      <h4 className="text-3xl font-extrabold bg-blue-900 text-white px-2">SHALL FLOURISH</h4>
+      <h4 className="text-3xl font-extrabold">ALL NATIONS</h4>
+      <h4 className="text-3xl font-extrabold bg-blue-900 text-white px-2">WILL CALL YOU BLESSED</h4>
     </div>
     <ul className="list-disc list-inside text-lg space-y-2 ml-0 md:ml-4">
-      <li>How do Christians flourish in life</li>
-      <li>What is the secret of flourishing</li>
-      <li>How do you attain spiritual flourishing</li>
-      <li>How can you live a disciplined life of worship</li>
+      <li>Obedience brings Blessings</li>
+      <li>God&apos;s heart to the Nations</li>
+      <li>God will multiply what you have</li>
+      <li>God&apos;s people, being a blessing to the nations</li>
     </ul>
   </div>
 </section>
