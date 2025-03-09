@@ -92,9 +92,9 @@ const About = () => {
   <div className="flex flex-col md:flex-row justify-around items-start">
     <div className="flex flex-col items-start mb-4 md:mb-0">
       <h4 className="text-3xl font-extrabold">ALL NATIONS</h4>
-      <h4 className="text-3xl font-extrabold bg-blue-900 text-white px-2">WILL CALL YOU BLESSED</h4>
+      <h4 className="text-3xl font-extrabold bg-blue-900 text-white px-1">WILL CALL YOU BLESSED</h4>
     </div>
-    <ul className="list-disc list-inside text-lg space-y-2 ml-0 md:ml-4">
+    <ul className="list-disc list-inside text-lg space-y-2 ml-0 md:ml-4 px-1">
       <li>Obedience brings Blessings</li>
       <li>God&apos;s heart to the Nations</li>
       <li>God will multiply what you have</li>
